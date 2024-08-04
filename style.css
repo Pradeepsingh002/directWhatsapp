@@ -92,6 +92,9 @@ form button {
 .one-para a {
   color: #5b5f80;
 }
+.one-para br {
+  display: none;
+}
 .share {
   margin-block: 2%;
   width: 100px;
@@ -173,6 +176,10 @@ h5 {
   }
   .one-para a {
     color: blue;
+  }
+
+  .one-para br {
+    display: block;
   }
   .two-para {
     font-size: 16px;
