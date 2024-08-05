@@ -36,7 +36,7 @@ nav .nav-divtwo {
 }
 h1 {
   font-size: 24px;
-  padding: 4%;
+  padding: 2%;
   font-weight: normal;
   color: #5b5f62;
 }
@@ -52,7 +52,6 @@ form {
 input {
   width: 40%;
   padding: 1%;
-  margin-block: 2%;
   border-radius: 5px;
   border: 1px solid black;
   font-size: 16px;
