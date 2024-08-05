@@ -6,9 +6,8 @@ let chat = (e) => {
   e.preventDefault();
 
   link.setAttribute("href", `https://wa.me/${number.value}`);
-  let at = link.getAttribute("href");
-  console.log(number.value);
-  console.log(at);
+  let Href = link.getAttribute("href");
+  window.open(Href);
   form.reset();
 };
 btn.addEventListener("click", chat);
